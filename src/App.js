@@ -7,7 +7,7 @@ import { Home, Profile } from './pages/index'
 const App = () => {
     return (
         <>
-            <Router>
+            <Router basename={'/cybrog'}>
                 <Header />
                 <Container>
                     <Routes>
